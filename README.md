@@ -90,7 +90,7 @@ Each notebook contains the exact cells/commands I used per experiment:
 * **Question 5 — FSVAE (SVHN, class-conditional)**
   Train: `!python main.py --model fsvae --train --device gpu --iter_max 50000 --iter_save 10000`
   Render grid: `!python main.py --model fsvae --device gpu --iter_save 50000`
-* * `main.py` — entry point the notebooks call.
+* `main.py` — entry point the notebooks call.
 
 **`submission/` folder (code + artifacts)**
 
