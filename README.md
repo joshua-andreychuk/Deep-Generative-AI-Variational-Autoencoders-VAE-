@@ -94,7 +94,7 @@ Each notebook contains the exact cells/commands I used per experiment:
 
 **`submission/` folder (code + artifacts)**
 
-* `train.py` — entry point the notebooks call.
+* `train.py` — contains the training/eval loops. 
 * `models/` — implementations: `vae.py`, `gmvae.py`, `ssvae.py`, `fsvae.py`
 
   * `models/nns/` — small MLP/CNN blocks used by encoders/decoders.
